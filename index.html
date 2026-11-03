@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-<meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content"><style>html,body{touch-action:none;overscroll-behavior:none}</style><style>html,body{position:fixed;inset:0;width:100%;height:100%;height:100dvh;overflow:hidden}#canvas{position:fixed;left:0;top:0}</style> <script> (function(){function fit(){var c=document.getElementById('canvas');if(!c)return;var v=window.visualViewport;var w=Math.round(v?v.width:window.innerWidth),h=Math.round(v?v.height:window.innerHeight);var d=document.documentElement.clientHeight;if(d&&d<h)h=d;var r=window.devicePixelRatio||1;c.style.width=w+'px';c.style.height=h+'px';var W=Math.round(w*r),H=Math.round(h*r);if(c.width!==W)c.width=W;if(c.height!==H)c.height=H;} window.boriFit=fit;window.addEventListener('resize',fit);window.addEventListener('orientationchange',function(){setTimeout(fit,300)});if(window.visualViewport)window.visualViewport.addEventListener('resize',fit);document.addEventListener('DOMContentLoaded',fit);setInterval(fit,1000);})(); </script>
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content"><style>html,body{touch-action:none;overscroll-behavior:none}</style><style>html,body{position:fixed;inset:0;width:100%;height:100%;height:100dvh;overflow:hidden}#canvas{position:fixed;left:0;top:0}</style> <script> (function(){function fit(){var c=document.getElementById('canvas');if(!c)return;var v=window.visualViewport;var w=Math.round(v?v.width:window.innerWidth),h=Math.round(v?v.height:window.innerHeight);var d=document.documentElement.clientHeight;if(d&&d<h)h=d;var r=Math.min(window.devicePixelRatio||1,(parseFloat(new URLSearchParams(location.search).get('dpr'))||2));c.style.width=w+'px';c.style.height=h+'px';var W=Math.round(w*r),H=Math.round(h*r);if(c.width!==W)c.width=W;if(c.height!==H)c.height=H;} window.boriFit=fit;window.addEventListener('resize',fit);window.addEventListener('orientationchange',function(){setTimeout(fit,300)});if(window.visualViewport)window.visualViewport.addEventListener('resize',fit);document.addEventListener('DOMContentLoaded',fit);setInterval(fit,1000);})(); </script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -111,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"ensureCrossOriginIsolationHeaders":true,"executable":"index","mainPack":"index-3d4b1f482.pck","experimentalVK":false,"fileSizes":{"index-3d4b1f482.pck":10050768,"index.wasm":43699190},"focusCanvas":true,"gdextensionLibs":[]};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"ensureCrossOriginIsolationHeaders":true,"executable":"index","mainPack":"index-3d83ce404.pck","experimentalVK":false,"fileSizes":{"index-3d83ce404.pck":10059104,"index.wasm":43699190},"focusCanvas":true,"gdextensionLibs":[]};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
